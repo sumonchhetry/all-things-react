@@ -1,9 +1,9 @@
 import React from "react";
 import ExpenseItem from "./ExpenseItem";
-import Card from "./Card";
+import Card from "../Ui/Card";
 import "./expenses.css";
 
-function Expenses(props) {
+const Expenses = (props) => {
   const expenses = [
     {
       id: "e1",
@@ -55,6 +55,6 @@ function Expenses(props) {
       />
     </Card>
   );
-}
+};
 
 export default Expenses;
